@@ -28,6 +28,8 @@ public class HomeTest extends base{
 		llp.getEmail().sendKeys(Username);
 		llp.getPassword().sendKeys(Password);
 		llp.getSubmit().click();
+		System.out.println("rish");
+		System.out.println("pooja");
 		
 	}
 	@AfterTest()
